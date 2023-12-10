@@ -18,11 +18,26 @@
   
   #results {
     font-size: 35px;
-    margin-left: 90px;
+    margin-left: 80px;
     margin-top: 20px;
-    color: rgb(241, 241, 241);
+    width: 400px;
+    color: rgb(255, 1, 1);
+    background-color: #fff;
   }
-  
+
+  #resultscomment{
+    font-size: 35px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 400px;
+    color: rgb(18, 231, 18);
+    background-color: #fff;
+  }
+   .displaycontainer{
+    display: flex;
+    flex-direction:column ;    
+
+  }
   button {
     width: 150px;
     height: 35px;
